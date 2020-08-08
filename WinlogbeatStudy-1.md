@@ -37,7 +37,7 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.2.0-am
 ```
 
 
-![](image/84.png)
+![](image/84.PNG)
 git 커맨드 실행을 위한 install git에 문제로 위와 같이 설정
 
 ```
@@ -61,14 +61,14 @@ sudo docker-compose up -d
 sudo docker-compose ps
 ```
 
-![](image/85.png)
+![](image/85.PNG)
 
 이후 winlogbeat 설정
 ```
 PS cd "C:\Program Files\Winlogbeat"
 PS 
 ```
-![](image/86.png)
+![](image/86.PNG)
 ```
 setup.dashboards.enabled: true
 setup.kibana:  

@@ -52,13 +52,13 @@ cloud.auth: "elastic:패스워드"
 
 실행 결과
 
-![](image/87.png)
+![](image/87.PNG)
 
 위와 같이 winlogbeat로 데이터 전송 성공(하트)
 
 EC 로그 데이터 수신 확인
 
-![](image/88.png)
+![](image/88.PNG)
 ____
 
 
@@ -123,7 +123,7 @@ __실패__
 
 filebeat로 VM환경의 로그를 전송은 성공하였다.
 
-![](image/89.png)
+![](image/89.PNG)
 
 처음에는 winlogbeat를 대신하여 filebeat를 사용하여 logstash를 거쳐 EC로 데이터 전송이 이루어 지는 줄 알았는데 왜(?) logstash의 서비스를 종료해도 EC로 데이터 전송이 지속적으로 이루어져서 그냥 위에서 보여준 Winlogbeat로 직접 EC로 데이터 전송과 비슷하게 logstash를 거치지 않고 전송이 된 것 같다.
 
@@ -131,7 +131,7 @@ filebeat로 VM환경의 로그를 전송은 성공하였다.
 
 지금 까지의 시행 착오를 통해 VM환경의 logstash에 해당하는 설정 파일인 logstash.yml을 아래와 같이 변경
 
-![](image/90.png)
+![](image/90.PNG)
 
 하지만 winlogbeat에서 또 연결 실패 으헝헝 ㅠㅠ
 
@@ -698,7 +698,7 @@ output.logstash:
 
 결과
 
-![](image/92.png)
+![](image/92.PNG)
 
 winlogbeat에서 로그 데이터 전송에 문제는 갑자기 사라졌다?
 
