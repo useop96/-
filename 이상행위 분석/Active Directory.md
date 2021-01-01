@@ -13,7 +13,7 @@
 탐지 : Event ID가 4625이면서 동일한 유저로 로그인 시도중 N시간동안 X번의 실패를 감지
 
 
-![](ELK-study/image/148.png)
+![](../image/148.png)
 
 TargetUserSid에 실패한 횟수를 통해 시각화가 가능할 것 같다.
 
