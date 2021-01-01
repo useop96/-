@@ -17,7 +17,7 @@ https://siemonster.com/videos/
 
 위의 영상을 보고 프로젝트 제작에 참고용으로 도움이 될 것 같다.
 
-![](ELK-study/image/147.png)
+![](../image/147.png)
 
 ---
 # Threat Hunting

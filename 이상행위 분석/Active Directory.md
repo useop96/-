@@ -40,7 +40,7 @@ TargetUserSid에 실패한 횟수를 통해 시각화가 가능할 것 같다.
 
 탐지 : Event ID가 4625이고 sub Status가 0xC0000072 or 0xC0000193인 경우
 
-![](ELK-study/image/148.png)
+![](../image/148.png)
 
 이벤트 발생시 사용자별 substatus를 검색하여 시각화 가능
 
@@ -57,7 +57,7 @@ TargetUserSid에 실패한 횟수를 통해 시각화가 가능할 것 같다.
 탐지 : logon Type이 2나 10인데 Username이 ^SVC.* or .*\$$인 경우
 
 헷갈리는건 Username이 Subject인지 Target인지 모르겠는데 느낌상 계정의 문제이므로 TargetUserName이지 않을까?
-![](ELK-study/image/149.png)
+![](../image/149.png)
 
 
 ## 2. LOGONS DIRECTLY TO DOMAIN COntroller
